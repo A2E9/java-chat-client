@@ -1,0 +1,36 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+
+.DS_Store
+node_modules
+*.log
+explorations
+TODOs.md
+RELEASE_NOTE*.md
+packages/server-renderer/basic.js
+packages/server-renderer/build.dev.js
+packages/server-renderer/build.prod.js
+packages/server-renderer/server-plugin.js
+packages/server-renderer/client-plugin.js
+packages/template-compiler/build.js
+packages/template-compiler/browser.js
+.vscode
+dist
+temp
+types/v3-generated.d.ts
