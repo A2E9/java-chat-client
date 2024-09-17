@@ -1,9 +1,9 @@
+/* main.css */
 @import './base.css';
 
 #app {
-  min-width: 100%;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
@@ -24,6 +24,67 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
   }
 }
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--color-divider-light-2);
+  border-radius: 5px;
+  color: var(--color-text-dark);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--color-divider-dark-1);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.box {
+  border: 1px solid var(--color-divider-light-2);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--color-white-soft);
+}
+

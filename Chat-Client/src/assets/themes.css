@@ -1,0 +1,22 @@
+/* Default Theme (Light) */
+:root {
+    --color-background: #ffffff;
+    --color-background-soft: #f8f8f8;
+    --color-background-mute: #f2f2f2;
+    --color-border: #e0e0e0;
+    --color-border-hover: #d0d0d0;
+    --color-heading: #333333;
+    --color-text: #333333;
+  }
+  
+  /* Dark Theme */
+  [data-theme='dark'] {
+    --color-background: #181818;
+    --color-background-soft: #222222;
+    --color-background-mute: #282828;
+    --color-border: #444444;
+    --color-border-hover: #555555;
+    --color-heading: #ffffff;
+    --color-text: #e0e0e0;
+  }
+  
